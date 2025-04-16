@@ -77,97 +77,134 @@ border-style: outset;
   background-color: gray;
 }
 
+.skill:active {
+  border-style: outset;
+}
+
 .skill-bio {
   text-align: center;
+  
+
+  padding: 80px;
+ 
 }
 
 /*Projects */
 
-.project-title {
-  text-align: center;
-  padding-top: 20px;
-
-}
-
-.project-1 {
+.project-1_left {
+margin: auto;
+  float: left;
 padding-left: 80px;
+}
+
+
+.project-1_right {
+  margin: auto;
+  width: 50%;
+  float: right;
 padding-right: 80px;
-
-}
-
-/*.project-1 img:hover{
-  transform: scale(1.5); /* Scale the image to 150% on hover */
-
-
-.project-1_content {
-
-}
-
-.project-1 h1 {
-  text-align: left;
-}
-
-.project-1 p {
-  text-align: left;
-  
-  
 }
 
 
-.project-1 img {
-  width: 300px;
-  height: auto;
+.oogle-profile {
+  margin: auto;
+  float: right;
+padding-right: 80px;
+margin-top: 10px;
+text-align: center;
 }
 
-/* project 2 */
-.project-2 {
+
+/*project2*/
+.project-2_left {
+  margin: auto;
+    float: right;
   padding-left: 80px;
-padding-right: 80px;
-  }
-  
-  .project-2_content {
-  
-  }
-  
-  .project-2 h1 {
-    text-align: left;
-  }
-  
-  .project-2 p {
-    text-align: left;
-    
+  padding-right: 80px;
+  padding-top: 200px;
   }
   
   
-  .project-2 img {
-    width: 300px;
-    height: auto;
+  .project-2_right {
+    margin: auto;
+    width: 50%;
+    float: left;
+  padding-right: 80px;
+  padding-left: 80px;
+  
   }
 
+
+/* project 3 */
+.project-3 {
+  margin-top: 40px;
+}
+
+.project-3_left {
+  margin: auto;
+  margin-top: 120px;
+    float: left;
+  padding-left: 80px;
+  
+ 
+  }
+  
+  
+  .project-3_right {
+    margin: auto;
+ width: 50%;
+ margin-top: 50px;
+    float: right;
+  padding-right: 80px;
+ 
+  
+  }
 
 
   /*Project / Freelance */
 
-  .freelance-project {
+ 
+  .project-3 {
+    margin-top: 40px;
+  }
+  
+  .project-4_left {
+    margin: auto;
+    margin-top: 120px;
+      float: left;
     padding-left: 80px;
-    padding-right: 80px;
-  }
-
-  .freelance-project_content {
     
-  }
+   
+    }
+    
+    
+    .project-4_right {
+      margin: auto;
+   width: 50%;
+   margin-top: 50px;
+      float: right;
+    padding-right: 80px;
+   
+    
+    }
+  
+    .project-4_left img {
+border: 5px solid;
 
-  .freelance-project img {
-    padding-top: 10px;
-    width: 300px;
-      height: auto;
-  }
+    }
 
-  .website {
-    color: black;
-    padding-left: 40px;
-padding-right: 40px;
-display: flex;
-border-color: red;
-  }
+    .website-preview {
+color: red;
+      
+    }
 
+
+    
+.github-preview {
+  color: black;
+}
+
+.freelance-buttons {
+  display: inline-block;
+  
+}
