@@ -1,6 +1,8 @@
 
 
+
 body {
+ 
  margin: 0;
  font-family: sans-serif;
  background-color: #f8f8ff;
@@ -8,203 +10,178 @@ body {
   
 }
 
-
-.zoomy {
-
-}
-
-
-
-
 /*portoflio settings */
 
 .bio-card {
-  background: linear-gradient(135deg, rgba(59, 59, 59, 1), rgba(117, 117, 117, 0.94), rgba(59, 59, 59, 1));
-  -webkit-background: linear-gradient(135deg, rgba(59, 59, 59, 1), rgba(117, 117, 117, 0.94), rgba(59, 59, 59, 1));
-  -moz-background: linear-gradient(135deg, rgba(59, 59, 59, 1), rgba(117, 117, 117, 0.94), rgba(59, 59, 59, 1));
-padding-top: 100px;
-padding-bottom: 125px;
+  background-color: rgba(80, 58, 131, 1);
+  padding: 0;
+  margin: 0;
+  padding-top: 150px;
+padding-bottom: 150px;
+
 
  
 }
 
 .bio-content {
-  padding: 80px;
+  color: white;
+  padding-left: 40px;
+ 
+}
+
+
+.social {
+  text-decoration: none;
   color: white;
 }
 
-.social {
-  color: black;
-  font-size: x-large;
-  word-spacing: 2px;
-  text-decoration: none;
+.wrapper {
+padding-left: 40px;
+padding-right: 40px;
+
 }
 
-/*Skills and Description*/
-.skills-title {
+.skill {
+ text-align: center;
+
+}
+
+.tech {
   text-align: center;
- 
-  
-  
+  font: large;
+line-height: 35px;
+font: 25px;
 
+  
 }
 
-.skills-logo {
-  align-items: center;
-}
-
-.technical-skills {
+.art {
   text-align: center;
   font: large;
 line-height: 35px;
 }
 
-.technical-skills :active {
+
+.project {
+  text-align: center;
+}
+
+.art :active {
+ border-style: outset; 
+}
+
+.tech:active {
   border-style: outset;
 }
 
-
-.art-skills {
-  text-align: center;
-  font: large;
-}
-
-.art-skills :active {
-border-style: outset;
-}
-
-.skill {
-  background-color: gray;
-}
-
-.skill:active {
+button:active {
   border-style: outset;
 }
 
-.skill-bio {
-  text-align: center;
+.projimg {
+  max-width: 50%;
+  height: auto
+}
+
+
+.project {
   
-
-  padding: 80px;
- 
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
 }
 
-/*Projects */
-
-.project-1_left {
-margin: auto;
+.three-column {
   float: left;
-padding-left: 80px;
+  width:30%;
+  padding: 20px;
+  min-height: 350px;
+text-align: center;
+  
+}
+
+.three-column:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
-.project-1_right {
-  margin: auto;
-  width: 50%;
-  float: right;
-padding-right: 80px;
+
+
+
+
+
+.button-holder {
+background-color: gray;
+color: white;
+text-decoration: none;
+font-weight: 800;
+border-radius: 8px;
+letter-spacing: 1px;
+width: 125px;
+height: auto;
+text-align: center;
+
 }
 
 
-.oogle-profile {
-  margin: auto;
-  float: right;
-padding-right: 80px;
-margin-top: 10px;
+.three-website {
+  padding-top: 10px;
+  width:30%;
+  min-height: 350px;
+text-align: center;
+
+
+}
+
+.three-website p h1 img {
 text-align: center;
 }
 
+.live-view {
 
-/*project2*/
-.project-2_left {
-  margin: auto;
-    float: right;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 200px;
-  }
-  
-  
-  .project-2_right {
-    margin: auto;
-    width: 50%;
-    float: left;
-  padding-right: 80px;
-  padding-left: 80px;
-  
-  }
-
-
-/* project 3 */
-.project-3 {
-  margin-top: 40px;
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-.project-3_left {
-  margin: auto;
-  margin-top: 120px;
-    float: left;
-  padding-left: 80px;
-  
- 
-  }
-  
-  
-  .project-3_right {
-    margin: auto;
- width: 50%;
- margin-top: 50px;
-    float: right;
-  padding-right: 80px;
- 
-  
-  }
 
-
-  /*Project / Freelance */
-
- 
-  .project-3 {
-    margin-top: 40px;
-  }
-  
-  .project-4_left {
-    margin: auto;
-    margin-top: 120px;
-      float: left;
-    padding-left: 80px;
-    
-   
-    }
-    
-    
-    .project-4_right {
-      margin: auto;
-   width: 50%;
-   margin-top: 50px;
-      float: right;
-    padding-right: 80px;
-   
-    
-    }
-  
-    .project-4_left img {
-border: 5px solid;
-
-    }
-
-    .website-preview {
-color: red;
-      
-    }
-
-
-    
-.github-preview {
-  color: black;
+.live-view:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
 }
 
-.freelance-buttons {
-  display: inline-block;
-  
+@media (min-width: 768px) {
+  .live-view {
+    padding: 10px 30px;
+  }
+}
+
+.foot {
+  background-color: rgba(80, 58, 131, 1);
+}
+
+.social-2 {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
