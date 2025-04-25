@@ -26,6 +26,7 @@ padding-bottom: 150px;
 .bio-content {
   color: white;
   padding-left: 40px;
+  text-align: center;
  
 }
 
@@ -36,8 +37,8 @@ padding-bottom: 150px;
 }
 
 .wrapper {
-padding-left: 40px;
-padding-right: 40px;
+padding-left: 2.5rem;
+padding-right: 2.5rem;
 
 }
 
@@ -46,142 +47,178 @@ padding-right: 40px;
 
 }
 
-.tech {
+
+.btn-container {
+  max-width: 100%;
   text-align: center;
-  font: large;
-line-height: 35px;
-font: 25px;
+justify-content: flex-start;
+
+  
+}
+
+.tech-skill {
+  
+ gap: .1rem;
+ max-width: 100%;
+ padding-left: .1rem;
+ padding-right: .1rem;
+ 
+ 
+
+}
+
+.art-skill {
+  
+  padding-top: .5rem;
+  gap: .1rem;
+  max-width: 100%;
+  padding-left: .1rem;
+ padding-right: .1rem;
+}
+
+
+.tech {
+  
+  
+
 
   
 }
 
 .art {
-  text-align: center;
-  font: large;
-line-height: 35px;
-}
-
-
-.project {
-  text-align: center;
-}
-
-.art :active {
- border-style: outset; 
-}
-
-.tech:active {
-  border-style: outset;
-}
-
-button:active {
-  border-style: outset;
-}
-
-.projimg {
-  max-width: 50%;
-  height: auto
-}
-
-
-.project {
   
-  padding-left: 40px;
-  padding-right: 40px;
-  text-align: center;
+ 
+
 }
 
-.three-column {
-  float: left;
-  width:30%;
-  padding: 20px;
-  min-height: 350px;
-text-align: center;
-  
-}
-
-.three-column:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-
-
-
-
-
-.button-holder {
-background-color: gray;
-color: white;
-text-decoration: none;
-font-weight: 800;
-border-radius: 8px;
-letter-spacing: 1px;
-width: 125px;
+img {
+max-width: 100%;
 height: auto;
-text-align: center;
 
 }
 
-
-.three-website {
-  padding-top: 10px;
-  width:30%;
-  min-height: 350px;
-text-align: center;
-
-
+.project-title {
+  text-align: center;
+  font-size: 2.5rem;
 }
 
-.three-website p h1 img {
-text-align: center;
+
+.container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
 }
+
+
+.left {
+  
+}
+
+.left img {
+  width: 18.75rem;
+  height: auto;
+}
+
+
+.right {
+  
+  width: 18.75rem;
+  height: auto;
+  
+}
+
+.right h1 {
+  font-size: 2rem;
+}
+
+.right p {
+  font-size: 1.2rem;
+}
+
+.right button {
+  size: 1.5rem;
+  
+}
+
 
 .live-view {
+  padding-top: 30px;
 
-  background-color: #13aa52;
-  border: 1px solid #13aa52;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  outline: none;
-  outline: 0;
-  padding: 10px 25px;
-  text-align: center;
-  transform: translateY(0);
-  transition: transform 150ms, box-shadow 150ms;
+  display: flex;
+          flex-direction: column;
+          text-align: center;
+          line-height: 10px;
+          padding-top: 2rem;
+          padding-top: .5rem;
+padding: 10px 10px;
+        margin: auto;
+         padding-top: .5rem;
+        background: #5E5DF0;
+        border-radius: 999px;
+        box-shadow: #5E5DF0 0 10px 20px -10px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
 }
 
+      
 
-.live-view:hover {
-  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
-  transform: translateY(-2px);
-}
 
-@media (min-width: 768px) {
-  .live-view {
-    padding: 10px 30px;
-  }
-}
 
 .foot {
-  background-color: rgba(80, 58, 131, 1);
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
 }
 
 .social-2 {
+  display: flex;
+  justify-content: start;
   text-decoration: none;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot {
+  background-color: rgba(80, 58, 131, 1);
+}
+
