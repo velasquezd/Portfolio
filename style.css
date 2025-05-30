@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -43,6 +43,10 @@ h1 {
 p {
   font-size: 1.1rem;
   margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 .landing-buttons {
@@ -160,6 +164,7 @@ p {
   flex-wrap: wrap;
   gap: 0.5rem;
   padding: 0 1rem 1rem;
+  text-decoration: none;
 }
 
 .live-view {
@@ -178,9 +183,26 @@ p {
   outline: 0 solid transparent;
   padding: 8px 18px;
  border: 0;
-
+text-decoration: none;
 }
 
+.source-code {
+   background: gray;
+        border-radius: 999px;
+        box-shadow: #5E5DF0 0 10px 20px -10px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+ border: 0;
+ text-decoration: none;
+}
 /* Footer back link */
 .footer a {
   display: inline-block;
