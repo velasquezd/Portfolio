@@ -169,16 +169,16 @@ a {
 
 .live-view {
 
-        background: #5E5DF0;
-        border-radius: 999px;
-        box-shadow: #5E5DF0 0 10px 20px -10px;
-        box-sizing: border-box;
-        color: #FFFFFF;
-        cursor: pointer;
-        font-family: sans-serif;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 24px;
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
   opacity: 1;
   outline: 0 solid transparent;
   padding: 8px 18px;
@@ -188,15 +188,15 @@ text-decoration: none;
 
 .source-code {
    background: gray;
-        border-radius: 999px;
-        box-shadow: #5E5DF0 0 10px 20px -10px;
-        box-sizing: border-box;
-        color: #FFFFFF;
-        cursor: pointer;
-        font-family: sans-serif;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 24px;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
   opacity: 1;
   outline: 0 solid transparent;
   padding: 8px 18px;
