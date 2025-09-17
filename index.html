@@ -3,38 +3,130 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>David Velasquez | Portfolio</title>
+  <title>David Velasquez Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
   <link rel="icon" href="assets/domo300x300.png" type="image/x-icon">
 </head>
 <body>
 
-  <main class="landing">
-    <div class="intro">
-      <img src="assets/domo300x300.png" alt="Logo or avatar" class="avatar"/>
-      <h1>Hello, I'm David</h1>
-      <p>I specialize in both <strong>creative digital marketing</strong> and <strong>front-end web development</strong>.</p>
-      <p>Select a path to explore my work:</p>
 
-      <div class="landing-buttons">
-        <a href="marketing.html" class="btn primary">Digital Marketing</a>
-        <a href="frontend.html" class="btn secondary">Front-End Development</a>
-      </div>
-    </div>
-  </main>
-
-  <footer class="footer">
-    <p>© 2025 David Velasquez</p>
+  <div class="intro-wrapper">
+  <div class="intro-card">
+    <h1 class="tag-line">David Velasquez</h1>
+    <p class="tag-line_description">IT Professional & Coding Enthusiast</p>
     <div class="footer-social">
-      <a href="https://github.com/velasquezd" target="_blank" aria-label="GitHub">
+      <a target="_blank" href="https://github.com/velasquezd">
         <i class="fab fa-github"></i>
       </a>
-      <a href="https://www.linkedin.com/in/david0velasquez/" target="_blank" aria-label="LinkedIn">
-        <i class="fab fa-linkedin"></i>
+      <a target="_blank" href="https://www.linkedin.com/in/david0velasquez/">
+    <i class="fab fa-linkedin"></i>
       </a>
-    </div>
-  </footer>
+      </div>
+  </div>
+</div>
+
+    <!--Skills-->
+
+    <section class="skills-section">
+      <hr>
+      <h2 class="titles">Skills</h2>
+      <div class="skills-container">
+      <div class="skill-block">
+          <h3 class="titles">Tools & Technologies</h3>
+          <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>Python</span>
+            <span>C#</span>
+            <span>React</span>
+            <span>BootStrap</span>
+            <span>Tailwind CSS</span>
+            <span>Three JS</span>
+            <span>Godot</span>
+            <span>Yarn</span>
+            <span>Vercel</span>
+            <span>Github</span>
+          </div>
+        </div>
+    
+        <div class="skill-block">
+          <h3 class="titles">Design Tools</h3>
+          <div class="skill-tags">
+            <span>DaVinci Resolve</span>
+            <span>GIMP / Photoshop</span>
+            <span>Inkscape</span>
+            <span>Pro Tools</span>
+            <span>Blender 3D</span>
+            <span>Figma</span>
+            <span>Canva</span>
+            <span>Audacity Audio</span>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+  </header>
+  <script src="index.js"></script>
+
+<h1 class="titles" style="text-align: center;">Projects</h1>
+<hr style="width: 90%; margin: auto;">
+
+  <main class="project-grid">
+    <!-- Project 1 -->
+    <article class="project-card">
+      <img src="assets/hydraulicsandgaskets.com_ (5).png" alt="hydraulicsandgaskets">
+      <h2>Hydraulics & Gaskets Business Website</h2>
+      <p>Assisted in the development and quality assurance of the Hydraulics & Gaskets website, supporting its launch and ongoing updates.</p>
+      <div class="project-tags">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Web Hosting</span><span>Google Analytics</span>
+      </div>
+      <div class="project-buton">
+      <a target="_blank" href="https://hydraulicsandgaskets.com/">
+     <button class="live-view">Live View</button>
+    </a>
+      </div>
+      </article>
+
+<!--Project2-->
+<article class="project-card">
+      <img src="assets/127.0.0.1_5500_index.html (1).png" alt="hydraulicsandgaskets">
+      <h2>Pokedex Website</h2>
+      <p>Created a working Pokémon Pokédex that displays Pokémon stats, types, and other information using the Pokémon API, with a search feature for Pokémon names or Pokédex numbers.</p>
+      <div class="project-tags">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>API Fetching</span>
+      </div>
+      <div class="project-buton">
+      <a target="_blank" href="https://velasquezd.github.io/Pokedex/">
+     <button class="live-view">Live View</button>
+    </a>
+    <a target="_blank" href="https://github.com/velasquezd/Pokedex">
+       <button class="source-code">
+      Source Code <i class="fab fa-1x fa-github"></i>
+    </button>
+    </a>
+     </a>
+      </div>
+      </article>
+
+    <!-- Project 3 -->
+    <article class="project-card">
+      <img src="assets/localhost_5174_invoice.png" alt="website-preview">
+      <h2>Invoice & Purchase order Generator</h2>
+      <p>Currently developing a dynamic Purchase Order Generator in React, enabling users to create, customize, and export professional purchase orders as PDFs.</p>
+      <div class="project-tags">
+        <span>React</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+      </div>
+       <div class="project-buton">
+      <a target="_blank" href="https://invoice-generator-ola9.vercel.app/">
+     <button class="live-view">Live View</button>
+     </a>
+      </div>
+    </article>
+</main>
+
 
 </body>
 </html>
