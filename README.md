@@ -1,7 +1,7 @@
 
 # Professional Portfolio
 
-This is my professional portfolio — a mix of projects from marketing, 3D modeling, and web development. I use this space to share what I’ve worked on, what I’m learning, and where I’m trying to grow.
+This is my professional portfolio — a mix of projects.
 
 Some of it’s personal, some collaborative, and all of it reflects my interest in building and creating across different mediums. Hoping to keep adding more as I go — thanks for checking it out.
 
